@@ -36,6 +36,7 @@ def royalStyle():
     })
 
     # print(df)
+    df.set_index('아이템명', inplace=True)
     df.to_csv('royal.csv')
 
 
